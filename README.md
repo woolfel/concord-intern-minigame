@@ -15,6 +15,8 @@ game pieces
 ## Trello Todo board
 
 https://trello.com/concordinternminigame/getting-started
+https://trello.com/b/oFVvlFNV/minigame
+
 
 
 ## Useful links

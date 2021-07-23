@@ -19,6 +19,17 @@ https://trello.com/b/oFVvlFNV/minigame
 
 ## Software to Install
 
+For the project, you will need to use Visual Studio Code, NodeJS, ReactJS
+
+### Download Links
+
+NodeJS - https://nodejs.org/en/download/
+
+VSCode - https://code.visualstudio.com/download
+
+
+### Videos
+
 Visual Studio Code - https://www.youtube.com/watch?v=aydFCQiUW44
 
 NodeJS for Windows - https://www.youtube.com/watch?v=JINE4D0Syqw

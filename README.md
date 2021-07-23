@@ -56,6 +56,7 @@ Intro HTML - https://www.youtube.com/watch?v=bWPMSSsVdPk
 
 Longer 2 hour introduction to React -  https://www.youtube.com/watch?v=Ke90Tje7VS0
 
+Intro to GIT and VSCode - https://www.youtube.com/watch?v=F2DBSH2VoHQ
 
 ### Women programming youtubers
 https://www.youtube.com/c/TheCoderCoder/videos - lots of friendly videos on programming

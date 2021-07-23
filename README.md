@@ -17,14 +17,19 @@ game pieces
 https://trello.com/b/oFVvlFNV/minigame
 
 
+## Software to Install
+
+Visual Studio Code - https://www.youtube.com/watch?v=aydFCQiUW44
+
+React JS - https://www.youtube.com/watch?v=3FKMOxz05Tg
+React JS for MacOS - https://www.youtube.com/watch?v=1MCW8pjYL3o
+
 
 ## Useful links
 
 Links to learn basic of creating a website.
 
 Basic overview of websites - https://www.youtube.com/watch?v=gT0Lh1eYk78
-
-Installing React - https://www.youtube.com/watch?v=IbWXHfz91_Y
 
 Tick Tack Toe with React - https://www.youtube.com/watch?v=08r9mDQvXpU
 

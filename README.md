@@ -12,6 +12,10 @@ electric company
 water works
 game pieces
 
+## Trello Todo board
+
+https://trello.com/concordinternminigame/getting-started
+
 
 ## Useful links
 

@@ -3,14 +3,14 @@ repository for concord summer internship to build a mini game
 
 ## Features of the game
 
-7 x 7 board
-railways
-community chest
-chance
-landmarks
-electric company
-water works
-game pieces
+1. 7 x 7 board
+2. railways
+3. community chest
+4. chance
+5. landmarks
+6. electric company
+7. water works
+8. game pieces
 
 ## Trello Todo board
 
@@ -21,7 +21,12 @@ https://trello.com/b/oFVvlFNV/minigame
 
 Visual Studio Code - https://www.youtube.com/watch?v=aydFCQiUW44
 
-React JS - https://www.youtube.com/watch?v=3FKMOxz05Tg
+NodeJS for Windows - https://www.youtube.com/watch?v=JINE4D0Syqw
+
+NodeJs for MacOS - https://www.youtube.com/watch?v=rF1ZHmqvm8I
+
+React JS for Windows - https://www.youtube.com/watch?v=3FKMOxz05Tg
+
 React JS for MacOS - https://www.youtube.com/watch?v=1MCW8pjYL3o
 
 
@@ -44,4 +49,7 @@ Longer 2 hour introduction to React -  https://www.youtube.com/watch?v=Ke90Tje7V
 ### Women programming youtubers
 https://www.youtube.com/c/TheCoderCoder/videos - lots of friendly videos on programming
 
+https://www.youtube.com/c/TechWorldwithNana/videos
+
+https://www.youtube.com/c/Socratica/videos
 

@@ -68,6 +68,9 @@ Adding graphics to a webpage - https://www.w3schools.com/html/html_images.asp
 
 
 ### Women programming youtubers
+
+https://www.youtube.com/watch?v=MHPGeQD8TvI - Tina Huang
+
 https://www.youtube.com/c/TheCoderCoder/videos - lots of friendly videos on programming
 
 https://www.youtube.com/c/TechWorldwithNana/videos

@@ -27,6 +27,11 @@ NodeJS - https://nodejs.org/en/download/
 
 VSCode - https://code.visualstudio.com/download
 
+### M1 Macbook Download Links
+
+NodeJS - https://nodejs.org/en/download/current/ - select MacOS Installer 64-bit/ ARM64
+
+VSCode - https://code.visualstudio.com/download - It should and choose Universal version automatically
 
 ### Videos
 

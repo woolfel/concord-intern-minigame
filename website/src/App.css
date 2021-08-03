@@ -63,3 +63,23 @@
   font-size: 14pt;
   height: 35px;
 }
+
+.Left-menu {
+  text-align: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: 65px;
+  padding: 10px;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-content: center;
+  background-color: rgba(150, 150, 50, .9);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}

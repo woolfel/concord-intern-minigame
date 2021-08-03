@@ -40,6 +40,13 @@
   text-align: center;
 }
 
+.Grid-item-skyway {
+  background-color: green;
+  background: no-repeat 80% url("http://localhost:3000/resources/skyway-bk.svg");
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
 .Grid-item-bus {
   background-color: green;
   background: no-repeat 80% url("http://localhost:3000/resources/bus-bk.svg");

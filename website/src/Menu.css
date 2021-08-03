@@ -1,0 +1,7 @@
+.Left-menu {
+    text-align: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 45px;
+}

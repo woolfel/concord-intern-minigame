@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Players from './Players';
+import Menu from './Menu.js';
 import { useState } from 'react';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div>logo</div>
       <Players playerlist={playerarray}/>
       <div>last roll</div>
-      <div>left column</div>
+      <Menu/>
       {/* div for the game grid */}
       <div className="App-grid">
         <div className="App-grid-item">heavenly pot stickers</div><div className="App-grid-item">Ding Tai Fung</div><div className="Grid-item-bus">Greyhound Bus</div><div className="App-grid-item">Jasmine Palace</div><div className="App-grid-item">No more ingredients</div>

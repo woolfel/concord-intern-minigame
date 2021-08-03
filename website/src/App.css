@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 175px 900px 175px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  grid-template-rows: 180px 180px 180px 180px 180px;
+}
+
+.App-grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.Grid-item-train {
+  background-color: green;
+  background: no-repeat 80% url("http://localhost:3000/resources/bullet-train-bk.svg");
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.Grid-item-bus {
+  background-color: green;
+  background: no-repeat 80% url("http://localhost:3000/resources/bus-bk.svg");
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.game-bk {
+  background: no-repeat center 100% url("http://localhost:3000/resources/dimsum-board.svg");
+}
+
+.Player-heading {
+  font-family: Calibri;
+  font-size: 14pt;
+  height: 35px;
+}

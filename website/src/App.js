@@ -18,7 +18,7 @@ function App() {
         <div className="App-grid-item">Iced Thai Dream</div><div ></div><div ></div><div ></div><div className="App-grid-item">Little Love</div>
         <div className="Grid-item-train">central station</div><div ></div><div >DimSum</div><div ></div><div className="Grid-item-skyway">skyway Station</div>
         <div className="App-grid-item">bobba city</div><div ></div><div ></div><div ></div><div className="App-grid-item">Pho Now #5</div>
-        <div className="App-grid-item">start</div><div className="App-grid-item">Dragon Dumplings</div><div className="App-grid-item">Peddle Power Hut</div><div className="App-grid-item">Scallion House</div><div className="App-grid-item">Oolong Temple</div>
+        <div className="App-grid-item">start</div><div className="App-grid-item">Dragon Dumplings</div><div className="App-grid-item">Shared Ride</div><div className="App-grid-item">Scallion House</div><div className="App-grid-item">Oolong Temple</div>
       </div>
       <div> right </div>
     </div>

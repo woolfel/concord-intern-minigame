@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>logo</div>
+      <div>Logo</div>
       <div>Next Player: </div>
       <div>last roll</div>
       <div className="Left-menu">
@@ -42,11 +42,11 @@ function App() {
         </div>
       {/* div for the game grid */}
       <div className="App-grid">
-        <div className="App-grid-item">heavenly pot stickers</div><div className="App-grid-item">Ding Tai Fung</div><div className="Grid-item-bus">Greyhound Bus</div><div className="App-grid-item">Jasmine Palace</div><div className="App-grid-item"><p>No more ingredients</p><p>loose 1 turn</p></div>
-        <div className="App-grid-item">Iced Thai Dream</div><div ></div><div ></div><div ></div><div className="App-grid-item">Little Love</div>
-        <div className="Grid-item-train">central station</div><div ></div><div >DimSum</div><div ></div><div className="Grid-item-skyway">skyway Station</div>
-        <div className="App-grid-item">bobba city</div><div ></div><div ></div><div ></div><div className="App-grid-item">Pho Now #5</div>
-        <div className="App-grid-item">start</div><div className="App-grid-item">Dragon Dumplings</div><div className="Grid-item-car">Shared Ride</div><div className="App-grid-item">Scallion House</div><div className="App-grid-item">Oolong Temple</div>
+        <div className="App-grid-item">heavenly pot stickers</div><div className="App-grid-item2">Ding Tai Fung</div><div className="Grid-item-bus">Greyhound Bus</div><div className="App-grid-item2">Jasmine Palace</div><div className="App-grid-item"><p>No more ingredients</p><p>loose 1 turn</p></div>
+        <div className="App-grid-item2">Iced Thai Dream</div><div ></div><div ></div><div ></div><div className="App-grid-item2">Little Love</div>
+        <div className="Grid-item-train">central station</div><div ></div><div >DimSum<img src="http://localhost:3000/resources/guabao.svg"></img></div><div ></div><div className="Grid-item-skyway">skyway Station</div>
+        <div className="App-grid-item2">bobba city</div><div ></div><div ></div><div ></div><div className="App-grid-item2">Pho Now #5</div>
+        <div className="App-grid-item">start</div><div className="App-grid-item2">Dragon Dumplings</div><div className="Grid-item-car">Shared Ride</div><div className="App-grid-item2">Scallion House</div><div className="App-grid-item">Oolong Temple</div>
       </div>
       <Players playerlist={playerarray}/>
     </div>

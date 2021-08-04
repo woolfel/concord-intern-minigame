@@ -29,7 +29,13 @@
 }
 
 .App-grid-item {
-  background-color: white;
+  background-color: rgb(155, 179, 245);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.App-grid-item2 {
+  background-color: rgba(248, 239, 58, 0.404);
   border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
@@ -86,7 +92,7 @@ button {
   padding-bottom: 10px;
   text-align: center;
   align-content: center;
-  background-color: rgba(150, 150, 50, .9);
+  background-color: rgba(46, 112, 57, 0.9);
   margin-top: 10px;
   margin-bottom: 10px;
   border: none;

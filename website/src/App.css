@@ -31,6 +31,7 @@
 .App-grid-item {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
 
 .Grid-item-train {
@@ -38,6 +39,7 @@
   background: no-repeat 80% url("http://localhost:3000/resources/bullet-train-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
+  border-radius: 10px;
 }
 
 .Grid-item-skyway {
@@ -45,6 +47,7 @@
   background: no-repeat 80% url("http://localhost:3000/resources/skyway-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
+  border-radius: 10px;
 }
 
 .Grid-item-bus {
@@ -52,10 +55,15 @@
   background: no-repeat 80% url("http://localhost:3000/resources/bus-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
+  border-radius: 10px;
 }
 
-.game-bk {
-  background: no-repeat center 100% url("http://localhost:3000/resources/dimsum-board.svg");
+.Grid-item-car {
+  background-color: green;
+  background: no-repeat 80% url("http://localhost:3000/resources/car-bk.svg");
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border-radius: 10px;
 }
 
 .Player-heading {
@@ -81,5 +89,7 @@ button {
   background-color: rgba(150, 150, 50, .9);
   margin-top: 10px;
   margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
   color: white;
 }

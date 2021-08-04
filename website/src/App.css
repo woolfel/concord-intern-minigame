@@ -29,20 +29,20 @@
 }
 
 .App-grid-item {
-  background-color: rgb(155, 179, 245);
+  background-color: rgb(183, 199, 243);
   border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 
 .App-grid-item2 {
-  background-color: rgba(248, 239, 58, 0.404);
+  background-color: rgba(205, 247, 211, 0.404);
   border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 
 .Grid-item-train {
   background-color: green;
-  background: no-repeat 80% url("http://localhost:3000/resources/bullet-train-bk.svg");
+  background: no-repeat 80% url("./resources/bullet-train-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 10px;
@@ -50,7 +50,7 @@
 
 .Grid-item-skyway {
   background-color: green;
-  background: no-repeat 80% url("http://localhost:3000/resources/skyway-bk.svg");
+  background: no-repeat 80% url("./resources/skyway-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 10px;
@@ -58,7 +58,7 @@
 
 .Grid-item-bus {
   background-color: green;
-  background: no-repeat 80% url("http://localhost:3000/resources/bus-bk.svg");
+  background: no-repeat 80% url("./resources/bus-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 10px;
@@ -66,7 +66,7 @@
 
 .Grid-item-car {
   background-color: green;
-  background: no-repeat 80% url("http://localhost:3000/resources/car-bk.svg");
+  background: no-repeat 80% url("./resources/car-bk.svg");
   border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 10px;

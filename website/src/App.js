@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div>Logo</div>
       <div>Next Player: </div>
-      <div><img src="./resources/dice_red.gif"></img></div>
+      <div><img src="./resources/dice_red.png"></img></div>
       <div className="Left-menu">
             <button onClick={handleAddPlayer}>Add Player</button>
             <button onClick={handleStartGame}>Start Game</button>

@@ -39,10 +39,13 @@ function App() {
               <Modal.Header>
                 <Modal.Title>Add New Player</Modal.Title>
               </Modal.Header>
-              <Modal.Body className="modal-content">show the modal!</Modal.Body>
+              <Modal.Body>
+                <input className="modal-input" type="text" placeholder="name"></input>
+                <input className="modal-input" type="text" placeholder="game piece"></input>
+              </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>Close</Button>
-                <Button variant="primary" onClick={handleClose}>Save Changes</Button>
+                <Button className="modal-btn" variant="secondary" onClick={handleClose}>Close</Button>
+                <Button className="modal-btn" variant="primary" onClick={handleClose}>Save</Button>
               </Modal.Footer>
             </Modal>
             <button onClick={handleStartGame}>Start Game</button>

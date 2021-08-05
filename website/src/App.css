@@ -113,9 +113,45 @@ button {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.modal-header {
+  text-align: center;
+  align-items: center;
+}
+
 .modal-content {
+  margin: 50px auto;
   background-color: #fefefe;
-  margin: 2% auto; /* 15% from the top and centered */
   padding: 15px;
   width: 50%; /* Could be more or less, depending on screen size */
+  text-align: center;
+  align-items: center;
+}
+
+.modal-body {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.modal-footer {
+  background-color: #fefefe;
+  text-align: center;
+  align-items: center;
+  display: inline-grid;
+}
+
+.modal-btn {
+  background-color: rgba(46, 112, 57, 0.9);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
 }

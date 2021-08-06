@@ -2,8 +2,19 @@ import './App.css';
 import Players from './Players';
 import React, { useState } from 'react';
 import {Modal, Button} from "react-bootstrap";
+import Select from 'react-select';
 
 const LOCAL_STORAGE_KEY = 'dimsum.data'
+const game_pieces = [ {label:'rat', value: "rat"},
+  {label:'horse', value: "horse"},
+  {label:'pig', value: "pig"},
+  {label:'monkey', value: "monkey"},
+  {label:'dragon', value: "dragon"},
+  {label:'rabbit', value: "rabbit"},
+  {label:'dog', value: "dog"},
+  {label:'snake', value: "snake"}
+];
+var diceValue = 0;
 
 function handleStartGame(e) {
   console.log("start the game");
@@ -11,6 +22,9 @@ function handleStartGame(e) {
 
 function handleRollDice(e) {
   console.log("roll the dice if the game has started");
+  var die = document.getElementById("dicevalue");
+  diceValue = Math.floor(Math.random() * 6) + 1;
+  die.innerHTML = diceValue;
 }
 
 function handleChance(e) {
@@ -25,14 +39,17 @@ function App() {
   const playerarray = useState([])
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => { setShow(false) };
+  const handleShow = () => { setShow(true) };
+  const handleSavePlayer = () => {
+    setShow(false)
+  };
   
   return (
     <div className="App">
-      <div><img src="./resources/dimsum-logo.svg"></img></div>
+      <div><img src="./resources/dimsum-logo.svg" alt="dimsum logo"></img></div>
       <div>Next Player: </div>
-      <div><img src="./resources/dice_red.png"></img></div>
+      <div><img src="./resources/dice_red.png" alt="dice"></img><div id="dicevalue">0</div></div>
       <div className="Left-menu">
             <button onClick={handleShow}>Add Player</button>
             <Modal show={show} onHide={handleClose} className="modal">
@@ -40,12 +57,12 @@ function App() {
                 <Modal.Title>Add New Player</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <input className="modal-input" type="text" placeholder="name"></input>
-                <input className="modal-input" type="text" placeholder="game piece"></input>
+                <input className="modal-input" type="text" placeholder="name" id="newplayername"></input>
+                <Select options={game_pieces} />
               </Modal.Body>
               <Modal.Footer>
                 <Button className="modal-btn" variant="secondary" onClick={handleClose}>Close</Button>
-                <Button className="modal-btn" variant="primary" onClick={handleClose}>Save</Button>
+                <Button className="modal-btn" variant="primary" onClick={handleSavePlayer}>Save</Button>
               </Modal.Footer>
             </Modal>
             <button onClick={handleStartGame}>Start Game</button>

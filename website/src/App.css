@@ -137,6 +137,8 @@ button {
 .modal-input {
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 15px;
+  width: 300px;
 }
 
 .modal-footer {

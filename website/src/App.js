@@ -3,6 +3,7 @@ import Players from './Players';
 import React, { useState } from 'react';
 import {Modal, Button} from "react-bootstrap";
 import Select from 'react-select';
+import { array, func } from 'prop-types';
 
 const LOCAL_STORAGE_KEY = 'dimsum.data'
 const game_pieces = [ {label:'rat', value: "rat"},
@@ -26,7 +27,9 @@ const chef_blessing_cards = [
   {label:"Instagramer collect $25", action:"get", value:25},
   {label:"Voted best restaurant, collect $10 from everyone", action:"get everyone", value:15}
 ];
+var newpiece = "";
 var diceValue = 0;
+var playerName = "";
 
 function handleStartGame(e) {
   console.log("start the game");
@@ -55,13 +58,26 @@ function handleBlessing(e) {
   blessElement.innerHTML = card.label;
 }
 
+function selectPiece(e) {
+  newpiece = e.value;
+}
+
+function changeName(e) {
+  playerName = document.getElementById("newplayername").value;
+}
+
 function App() {
-  const playerarray = useState([])
+  
+  const [playerArray, updatePlayerArray] = useState([]);
   const [show, setShow] = useState(false);
 
   const handleClose = () => { setShow(false) };
   const handleShow = () => { setShow(true) };
   const handleSavePlayer = () => {
+    updatePlayerArray( playerArray => 
+      [...playerArray, {playerName: playerName, playerPiece: newpiece, wallet: 200, position: "start"}]
+    );
+    console.log(playerArray.length);
     setShow(false)
   };
   
@@ -77,8 +93,8 @@ function App() {
                 <Modal.Title>Add New Player</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <input className="modal-input" type="text" placeholder="name" id="newplayername"></input>
-                <Select options={game_pieces} id="newplayerpiece"/>
+                <input className="modal-input" type="text" placeholder="name" id="newplayername" onChange={changeName}></input>
+                <Select options={game_pieces} id="newplayerpiece" onChange={selectPiece}/>
               </Modal.Body>
               <Modal.Footer>
                 <Button className="modal-btn" variant="secondary" onClick={handleClose}>Close</Button>
@@ -98,7 +114,7 @@ function App() {
         <div className="App-grid-item2" id="sq2">bobba city</div><div ></div><div ><div id="chance"></div></div><div ></div><div className="App-grid-item2" id="sq12">Pho Now #5<p><img src="./resources/pho_bowl.png"></img></p></div>
         <div className="App-grid-item" id="sq1">start</div><div className="App-grid-item2" id="sq17">Dragon Dumplings</div><div className="Grid-item-car" id="sq16">Shared Ride</div><div className="App-grid-item2" id="sq14">Scallion House</div><div className="App-grid-item" id="sq13">Oolong Temple</div>
       </div>
-      <Players playerlist={playerarray}/>
+      <Players playerlist={playerArray}/>
     </div>
   );
 }

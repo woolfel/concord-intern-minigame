@@ -63,7 +63,9 @@ Intro to GIT and VSCode - https://www.youtube.com/watch?v=F2DBSH2VoHQ
 ### Javascript
 
 Intro javascript - https://www.youtube.com/watch?v=Ukg_U3CnJWI 
+
 Intro javascript in 1 hour -  https://www.youtube.com/watch?v=W6NZfCO5SIk 
+
 Writing a function to randomly select from a list - https://www.w3resource.com/javascript-exercises/javascript-array-exercise-35.php
 
 ### HTML

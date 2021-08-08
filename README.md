@@ -71,6 +71,9 @@ Writing a function to randomly select from a list - https://www.w3resource.com/j
 Intro HTML - https://www.youtube.com/watch?v=bWPMSSsVdPk
 Adding graphics to a webpage - https://www.w3schools.com/html/html_images.asp
 
+### React Hooks and UseState
+
+15 min video on hooks and useState - https://www.youtube.com/watch?v=O6P86uwfdR0
 
 ### Women programming youtubers
 

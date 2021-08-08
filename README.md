@@ -74,6 +74,7 @@ Adding graphics to a webpage - https://www.w3schools.com/html/html_images.asp
 ### React Hooks and UseState
 
 15 min video on hooks and useState - https://www.youtube.com/watch?v=O6P86uwfdR0
+5 min video useState with array - https://www.youtube.com/watch?v=RZ5wKYbOM_I
 
 ### Women programming youtubers
 

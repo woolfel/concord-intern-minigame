@@ -11,9 +11,7 @@ const game_pieces = [ {label:'rat', value: "rat"},
   {label:'pig', value: "pig"},
   {label:'monkey', value: "monkey"},
   {label:'dragon', value: "dragon"},
-  {label:'rabbit', value: "rabbit"},
-  {label:'dog', value: "dog"},
-  {label:'snake', value: "snake"}
+  {label:'rabbit', value: "rabbit"}
 ];
 const chance_cards = [
   {label:"Go back 2 spaces", action:"move forward", value:-2},
@@ -75,7 +73,7 @@ function App() {
   const handleShow = () => { setShow(true) };
   const handleSavePlayer = () => {
     updatePlayerArray( playerArray => 
-      [...playerArray, {playerName: playerName, playerPiece: newpiece, wallet: 200, position: "start"}]
+      [...playerArray, {playerName: playerName, playerPiece: newpiece, wallet: 200, position: "start", properties:[]}]
     );
     console.log(playerArray.length);
     setShow(false)

@@ -169,3 +169,8 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.player-wallet {
+  font-size: 16pt;
+  color: green;
+}

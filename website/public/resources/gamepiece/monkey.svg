@@ -79,8 +79,9 @@
        rx="0.31027538"
        ry="0.40574473" />
     <path
+       sodipodi:nodetypes="csc"
        id="path930"
-       d="m 4.1230699,10.132171 c 0,0 1.217234,0.692152 2.5538049,0.692152 1.3365709,0 2.3628662,-0.596683 2.3628662,-0.596683"
+       d="m 4.0228438,10.082058 c 0,0 1.0502712,0.907289 2.603918,0.892604 1.5203425,-0.01437 2.5299096,-0.830544 2.5299096,-0.830544"
        style="fill:none;stroke:#000000;stroke-width:0.378635;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path932"

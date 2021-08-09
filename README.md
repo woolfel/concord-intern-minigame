@@ -45,6 +45,13 @@ React JS for Windows - https://www.youtube.com/watch?v=3FKMOxz05Tg
 
 React JS for MacOS - https://www.youtube.com/watch?v=1MCW8pjYL3o
 
+## GIT
+
+Start by creating a github account - https://github.com/
+
+Video on fork and pull request - https://www.youtube.com/watch?v=nT8KGYVurIU
+
+Committing changes to your github fork - https://www.youtube.com/watch?v=wrb7Gge9yoE
 
 ## Useful links
 

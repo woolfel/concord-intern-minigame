@@ -157,3 +157,15 @@ button {
   color: white;
   width: 150px;
 }
+
+.Player-heading {
+  text-align: center;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.player-item {
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

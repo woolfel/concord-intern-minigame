@@ -107,11 +107,11 @@ function App() {
       </div>
       {/* div for the game grid */}
       <div className="App-grid">
-        <div className="App-grid-item" id="sq5">heavenly pot stickers<p><img src="./resources/gyoza.png"></img></p></div><div className="App-grid-item2" id="sq6">Ding Tai Fung</div><div className="Grid-item-bus" id="sq7">Greyhound Bus</div><div className="App-grid-item2" id="sq8">Jimin Ramen<p><img src="./resources/ramen.png"></img></p></div><div className="App-grid-item" id="sq9"><p>No more ingredients</p><p>loose 1 turn</p></div>
+        <div className="App-grid-item" id="sq5">heavenly pot stickers<p><img src="./resources/gyoza.png"></img></p>Free Chance Card</div><div className="App-grid-item2" id="sq6">Ding Tai Fung</div><div className="Grid-item-bus" id="sq7">Greyhound Bus</div><div className="App-grid-item2" id="sq8">Jimin Ramen<p><img src="./resources/ramen.png"></img></p></div><div className="App-grid-item" id="sq9"><p>No more ingredients</p><p>loose 1 turn</p></div>
         <div className="App-grid-item2" id="sq4">Iced Thai Dream<p><img src="./resources/thai_tea.png"></img></p></div><div ></div><div ><div id="blessing"></div></div><div ></div><div className="App-grid-item2" id="sq10">Momo Nepal</div>
         <div className="Grid-item-train" id="sq3">central station</div><div ></div><div ><img src="./resources/guabao.svg"></img></div><div ></div><div className="Grid-item-skyway" id="sq11">skyway Station</div>
         <div className="App-grid-item2" id="sq2">bobba city<p><img src="./resources/bobbatea.png"></img></p></div><div ></div><div ><div id="chance"></div></div><div ></div><div className="App-grid-item2" id="sq12">Pho Now #5<p><img src="./resources/pho_bowl.png"></img></p></div>
-        <div className="App-grid-item" id="sq1">start</div><div className="App-grid-item2" id="sq17">Dragon Dumplings<p><img src="./resources/xiaolongbao.png"></img></p></div><div className="Grid-item-car" id="sq16">Shared Ride</div><div className="App-grid-item2" id="sq14">Scallion House<p><img src="./resources/scallion.png"></img></p></div><div className="App-grid-item" id="sq13">Oolong Temple<p><img src="./resources/teapot.png"></img></p></div>
+        <div className="App-grid-item" id="sq1">start</div><div className="App-grid-item2" id="sq17">Dragon Dumplings<p><img src="./resources/xiaolongbao.png"></img></p></div><div className="Grid-item-car" id="sq16">Shared Ride</div><div className="App-grid-item2" id="sq14">Scallion House<p><img src="./resources/scallion.png"></img></p></div><div className="App-grid-item" id="sq13">Oolong Temple<p><img src="./resources/teapot.png"></img></p>Chef's Blessing</div>
       </div>
       <Players playerlist={playerArray}/>
     </div>

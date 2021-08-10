@@ -80,7 +80,7 @@
 
 .Left-menu {
   text-align: center;
-  align-content: center;
+  align-content: baseline;
   display: grid;
   grid-template-columns: 150px;
   grid-template-rows: 65px;

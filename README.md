@@ -75,6 +75,8 @@ Intro javascript in 1 hour -  https://www.youtube.com/watch?v=W6NZfCO5SIk
 
 Writing a function to randomly select from a list - https://www.w3resource.com/javascript-exercises/javascript-array-exercise-35.php
 
+Video comparing different ways to build apps - https://www.youtube.com/watch?v=cuHDQhDhvPE
+
 ### HTML
 
 Intro HTML - https://www.youtube.com/watch?v=bWPMSSsVdPk
